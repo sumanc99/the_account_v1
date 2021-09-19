@@ -1,0 +1,101 @@
+table{
+	margin: 20px auto;
+	border-collapse: collapse;
+	/*border: 1px solid black;*/
+	 page-break-after: auto;
+	page-break-inside: avoid;
+
+}
+
+td{
+	border: 1px solid #6c757d !important;
+	/*font-size: 18px;*/
+	font-family: tahoma;
+	padding: 2px;
+	color: #333;
+	text-align: center;
+	 page-break-after: auto;
+ page-break-inside: avoid;
+}
+td.months{
+	width: 200px;
+    /*font-size: 19px;*/
+}
+
+td.month{
+	text-align: left;
+	padding-left:10px;
+	letter-spacing: 1px;
+}
+
+td.sn{
+	width: 30px !important;
+}
+td.days{
+	text-align:center;
+	font-size: 18px;
+/*	font-weight: ;*/
+	padding: 5px;
+}
+td.day{
+	width: 20px !important;
+	text-transform: none;
+}
+
+
+/*.a{
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	display: inline-block;
+	padding: 0px;
+	letter-spacing: 2px;
+}*/
+
+.acct-details{
+	margin:0px !important; 
+	margin-left: 5px !important;
+	margin-top: 5px !important;
+	font-size:18px !important; 
+	display: inline-block !important; 
+/*	border: 1px solid #6c757d ; */
+	padding: 5px;
+	 box-shadow :0px 0px 0px 1px  #6c757d  !important;
+}
+
+/*style for svn number in account_list.php*/
+
+td.names-head{
+	width: 200px !important;
+}
+td.names{
+	width: 200px !important;
+	text-align: left;
+	padding-left: 10px;
+}
+td.svn{
+	width: 100px !important;
+}
+
+td.svn-no{
+	text-align: left;
+	padding-left: 10px;
+}
+
+td.acct-id{
+	width: 100px !important;
+}
+td.acct-balance{
+	width: 100px !important;
+}
+
+
+@media print{
+	.prnt{
+		display: none;
+	}
+}
+
+.tnt .td{
+    width: 160px;
+
+}
